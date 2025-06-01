@@ -1,0 +1,18 @@
+{
+  "displayName": "BATCH_JOB_2",
+  "model": "projects/{PROJECT_ID}/locations/{LOCATION}/models/{MODEL_ID}", 
+  "inputConfig": {
+    "instancesFormat": "csv",
+    "gcsSource": {
+      "uris": [
+        "gs://input/input.csv"
+      ]
+    },
+  },
+  "outputConfig": {
+    "predictionsFormat": "csv",
+    "gcsDestination": {
+      "outputUriPrefix": "gs://output"
+    }
+  }
+}

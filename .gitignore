@@ -1,0 +1,9 @@
+/data
+.conda
+.env
+.csv
+.vscode/
+/notebooks
+.dockerignore
+docker-compose*
+Dockerfile*
